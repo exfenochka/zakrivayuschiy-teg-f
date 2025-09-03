@@ -3,7 +3,7 @@
    --main-font-family: 'Inter', sans-serif;
    --accent-font-family: 'PressStart2P', fantasy;
    --font-size: 18px;
-   --line-height: 21px; 
+   --line-height: 21px;
    --bold-font-weight: 715;
    --regular-font-weight: 410;
    --bg-color: #FFFFFF;
@@ -15,7 +15,7 @@
    --active-color: #FF0000;
    --text-color-button: #FFFFFF;
    --button-bg: #FFFFFF;
-   --button-hover-bg: #000000; 
+   --button-hover-bg: #000000;
    --dialog-width: clamp(341px, 80vw, 351px);
  
  

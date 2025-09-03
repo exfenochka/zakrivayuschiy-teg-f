@@ -75,7 +75,7 @@
   box-sizing: border-box;
 }
 
-.article {  
+.article {
   border: 2px solid var(--text-color);
   background-color: var(--bg-color);
 }
@@ -112,7 +112,7 @@
   mix-blend-mode: var(--label-blend-mode);
   text-transform: uppercase;
   z-index: 1;
-  -webkit-text-stroke: 1px white; 
+  -webkit-text-stroke: 1px white;
 }
 
 .img {
