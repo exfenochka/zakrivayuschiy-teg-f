@@ -1,1 +1,52 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+   --main-font-family: 'Inter', sans-serif;
+   --accent-font-family: 'PressStart2P', fantasy;
+   --font-size: 18px;
+   --line-height: 21px; 
+   --bold-font-weight: 715;
+   --regular-font-weight: 410;
+   --bg-color: #FFFFFF;
+   --text-color: #000000;
+   --stripes-color: #d3d3d3;
+   --contour-color: #000;
+   --animation-fill-color: #FF0000;
+   --hover-color: #000;
+   --active-color: #FF0000;
+   --text-color-button: #FFFFFF;
+   --button-bg: #FFFFFF;
+   --button-hover-bg: #000000; 
+   --dialog-width: clamp(341px, 80vw, 351px);
+ 
+ 
+   /* Градиенты */
+   --bg-gradient: 
+   repeating-linear-gradient(
+     to right,
+     var(--stripes-color),
+     var(--stripes-color) 2px,
+     transparent 2px,
+     transparent 4px
+   ),
+   repeating-linear-gradient(
+     to bottom,
+     var(--stripes-color),
+     var(--stripes-color) 2px,
+     transparent 2px,
+     transparent 4px
+   ),
+   linear-gradient(
+     to bottom,
+     #e7e7e7 0.01%,
+     #1a1a1a
+   );
+  
+  /* Размеры */
+  --content-width: clamp(375px, 100%, 700px);
+  --header-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-subtitle-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+
+  --label-stroke: var(--bg-color);
+  --label-blend-mode: hard-light;
+  --label-opacity: 0.5;
+}
