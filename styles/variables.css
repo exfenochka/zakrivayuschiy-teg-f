@@ -17,7 +17,7 @@
    --button-bg: #FFFFFF;
    --button-hover-bg: #000000;
    --dialog-width: clamp(341px, 80vw, 351px);
- 
+   --accent-color: #000000;;
  
    /* Градиенты */
    --bg-gradient: 
